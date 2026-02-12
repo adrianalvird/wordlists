@@ -1,0 +1,84 @@
+# Root level - HIGHEST PRIORITY
+/package.json
+/package-lock.json
+/yarn.lock
+/composer.json
+/composer.lock
+/Gemfile
+/Gemfile.lock
+/requirements.txt
+/Pipfile
+/Pipfile.lock
+/go.mod
+/go.sum
+/Cargo.toml
+/Cargo.lock
+/mix.exs
+/mix.lock
+/pom.xml
+/build.gradle
+/gradle.properties
+/packages.config
+
+# API/Endpoint paths
+/api/package.json
+/api/composer.json
+/api/requirements.txt
+/v1/package.json
+/v2/composer.json
+/api/admin/package.json
+
+# Admin/Backend paths
+/admin/package.json
+/administrator/composer.json
+/backend/package.json
+
+# Static assets & build outputs
+/static/package.json
+/assets/package.json
+/build/package.json
+/dist/package.json
+/.next/package.json
+/out/package.json
+
+# Source code directories
+/src/package.json
+/app/package.json
+/lib/package.json
+/vendor/composer.json
+/vendor/composer/installed.json
+/node_modules/package.json
+
+# Configuration files
+/.npmrc
+/.yarnrc
+/.bowerrc
+/.gemrc
+/pypirc
+/.pip/pip.conf
+/composer/auth.json
+/.bundle/config
+/setup.py
+
+# Path traversal variations
+/images/..//package.json
+/static/..//composer.json
+
+# Case variations
+/Package.json
+/composer.JSON
+
+# Backup/old versions
+/package.json.bak
+/package.json.old
+/package.json~
+/composer.json.backup
+
+# VCS exposure
+/.git/package.json
+/.svn/package.json
+
+# Additional .NET/C#/iOS files
+/*.csproj
+/Podfile
+/Podfile.lock
